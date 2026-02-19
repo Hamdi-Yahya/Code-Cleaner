@@ -24,8 +24,7 @@ Optional (for syntax validation):
 
 ## Installation
 
-```
-bash
+```bash
 git clone https://github.com/yourusername/code-cleaner.git
 cd code-cleaner
 ```
@@ -34,30 +33,26 @@ cd code-cleaner
 
 ### Basic Usage
 Removes comments and directly overwrites files without backup or syntax validation.
-```
-bash
+```bash
 python code_cleaner.py --path "/your/project/path"
 ```
 
 ### Recommended Safe Mode
 Removes comments, validates syntax before saving, and creates backup files.
 Files that fail validation will be skipped automatically.
-```
-bash
+```bash
 python code_cleaner.py --path "/your/project/path" --validate --backup
 ```
 
 ### Dry Run (Preview Only)
 Shows which files would be processed without modifying any file.
-```
-bash
+```bash
 python code_cleaner.py --path "/your/project/path" --dry-run
 ```
 
 ## Example
 
-```
-bash
+```bash
 python code_cleaner.py --path "D:\Project" --validate --backup 
 ```
 
