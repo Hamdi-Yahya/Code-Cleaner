@@ -26,8 +26,9 @@ Optional (for syntax validation):
 
 ```
 bash
-git clone https://github.com/Hamdi-Yahya/Code-Cleaner.git
+git clone https://github.com/yourusername/code-cleaner.git
 cd code-cleaner
+```
 
 ## Usage
 
