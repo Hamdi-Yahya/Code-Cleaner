@@ -26,26 +26,8 @@ Optional (for syntax validation):
 
 ```
 bash
-git clone https://github.com/yourusername/code-cleaner.git
+git clone https://github.com/Hamdi-Yahya/Code-Cleaner.git
 cd code-cleaner
-python -m venv venv
-```
-
-### Activate Virtual Environment
-
-**Windows:**
-```
-bash
-venv\Scripts\activate
-```
-
-**Mac/Linux:**
-```
-bash
-source venv/bin/activate
-```
-
-No external dependencies required.
 
 ## Usage
 
